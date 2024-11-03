@@ -22,11 +22,8 @@ export class LeaderBoardService {
   }
 
   async findAll() {
-    console.log('leaderBoard find all');
     const data = await redisCache.get('leaderBoard');
     if (data) {
-      console.log('cache leaderBoard');
-      
       return data as LeaderBoardDocument[];
     }
     const result = await this.leaderboardModel.find();

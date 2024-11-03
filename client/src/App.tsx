@@ -34,8 +34,6 @@ const App: React.FC = () => {
   };
 
   const handleJoinQuiz = (quiz: any) => {
-    console.log('handleJoinQuiz', quiz);
-
     setQuiz(quiz);
     socket?.emit('joinQuiz', { userId, quizId: quiz._id });
   };

@@ -105,7 +105,6 @@ export class QuizGateway implements OnGatewayConnection, OnGatewayDisconnect {
         }
       }
     }
-    console.log('updte score ', score);
     return score;
   }
 
