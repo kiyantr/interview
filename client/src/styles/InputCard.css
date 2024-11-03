@@ -1,0 +1,58 @@
+/* Container for the label and input card */
+.user-input-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  /* Label text styling */
+  .user-input-label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  /* Card-style container for the input and button */
+  .user-input-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Input field styling */
+  .user-input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  /* Submit button styling */
+  .enter-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .enter-button:hover {
+    background-color: #218838;
+  }
+  

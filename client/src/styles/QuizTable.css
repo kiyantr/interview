@@ -1,0 +1,62 @@
+/* Container for the quiz table */
+.quiz-table-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header for the table */
+  .quiz-table-header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  /* Table styling */
+  .quiz-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .quiz-table th,
+  .quiz-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .quiz-table th {
+    background-color: #13113a;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .quiz-table td {
+    background-color: #ffffff;
+  }
+  
+  .quiz-table tr:hover td {
+    background-color: #f1f8ff;
+  }
+  
+  /* Join button styling */
+  .join-button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .join-button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,65 @@
+.leaderboard {
+    width: 100%;
+    padding: 20px 0;
+    background: #f9f9f9;
+    color: #333;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    color: #444;
+    font-weight: bold;
+}
+
+.leaderboard-entries {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.leaderboard-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #fff;
+    transition: background 0.3s;
+}
+
+.leaderboard-entry:hover {
+    background-color: #f0f8ff;
+}
+
+.rank-icon {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.rank-1 {
+    color: #ffdd57;
+}
+
+.rank-2 {
+    color: #c0c0c0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-id {
+    font-weight: 600;
+    color: #333;
+}
+
+.user-score {
+    font-weight: bold;
+    color: #555;
+}
